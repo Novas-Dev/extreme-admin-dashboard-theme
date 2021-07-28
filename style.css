@@ -1,3 +1,32 @@
+#adminmenu .wp-submenu a{
+  font-size:17px;
+}
+
+#wpadminbar * {
+  font-size:17px;
+  line-height:1.9;
+}
+#wpadminbar {
+  height:37px;
+}
+tr.user-admin-color-wrap,
+#wpadminbar #wp-admin-bar-wp-logo>.ab-item,
+.wp-admin #wpadminbar #wp-admin-bar-site-name>.ab-item:before {
+    display: none;
+}
+li#wp-admin-bar-site-name .ab-item {
+    color: #fca313;
+    text-transform: uppercase;
+    text-decoration: overline;
+}
+div#wpfooter {
+    display: none;
+}
+
+#adminmenu div.wp-menu-name {
+    padding: 8px 8px 8px 57px;
+  }
+
 #adminmenu, #adminmenu .wp-submenu, #adminmenuback, #adminmenuwrap,#wpadminbar{
   background-color:#14213d;
 }
@@ -29,14 +58,16 @@
   width:237px;
 }
 
-#adminmenu .wp-submenu-head, #adminmenu a.menu-top,
-#adminmenu .wp-not-current-submenu li>a, .folded #adminmenu .wp-has-current-submenu li>a {
+#adminmenu .wp-submenu-head, #adminmenu a.menu-top, #adminmenu .wp-not-current-submenu li>a, .folded #adminmenu .wp-has-current-submenu li>a {
     font-size: 17px;
     font-weight: 500;
-    line-height: 1.7;
-    padding: 8px 8px 8px 57;
+    line-height: 3;
     font-family: sans-serif;
+    background-color: #273a63;
+    border: 1px solid black;
 }
+
+
 
 .dashicons, .dashicons-before:before{
   font-size:21px;

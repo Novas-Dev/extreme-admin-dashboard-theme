@@ -1,0 +1,52 @@
+#adminmenu, #adminmenu .wp-submenu, #adminmenuback, #adminmenuwrap,#wpadminbar{
+  background-color:#14213d;
+}
+#adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head, #adminmenu .wp-menu-arrow,
+#adminmenu .wp-menu-arrow div, #adminmenu li.current a.menu-top,
+#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu,
+#adminmenu li.menu-top:hover,#adminmenu li.menu-top:focus,
+#adminmenu li.menu-top:hover, #adminmenu li.opensub>a.menu-top, #adminmenu li>a.menu-top:focus{
+    background: #fca311;
+}
+.wp-menu-name:hover,
+#adminmenu li.menu-top:hover, #adminmenu li.opensub>a.menu-top, #adminmenu li>a.menu-top:focus,
+#adminmenu li.wp-has-submenu.wp-not-current-submenu.opensub:hover:after, #adminmenu li.wp-has-submenu.wp-not-current-submenu:focus-within:after,
+#adminmenu li a:focus div.wp-menu-image:before, #adminmenu li.opensub div.wp-menu-image:before, #adminmenu li:hover div.wp-menu-image:before{
+    color:#ffffff;
+}
+
+#adminmenu .wp-submenu a:focus, #adminmenu .wp-submenu a:hover, #adminmenu a:hover, #adminmenu li.menu-top>a:focus{
+  color : #fca311 !important;
+}
+#adminmenu div.wp-menu-image:before {
+    color: #72aee6;
+}
+
+#wpcontent, #wpfooter {
+    margin-left: 300px;
+}
+#adminmenu, #adminmenu .wp-submenu, #adminmenuback, #adminmenuwrap{
+  width:237px;
+}
+
+#adminmenu .wp-submenu-head, #adminmenu a.menu-top,
+#adminmenu .wp-not-current-submenu li>a, .folded #adminmenu .wp-has-current-submenu li>a {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.7;
+    padding: 8px 8px 8px 57;
+    font-family: sans-serif;
+}
+
+.dashicons, .dashicons-before:before{
+  font-size:21px;
+}
+
+
+#adminmenu .wp-not-current-submenu .wp-submenu, .folded #adminmenu .wp-has-current-submenu .wp-submenu{
+  min-width:237px;
+}
+
+#adminmenu li.wp-has-submenu.wp-not-current-submenu.opensub:hover:after, #adminmenu li.wp-has-submenu.wp-not-current-submenu:focus-within:after{
+  display:none;
+}

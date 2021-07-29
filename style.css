@@ -18,6 +18,10 @@ table.wp-list-table {
 h2.hndle.ui-sortable-handle{
   color:Black;
 }
+.wp-core-ui .attachment .thumbnail .centered img,
+.wp-core-ui .attachment-preview{
+  border-radius:28px;
+}
 
 #adminmenu a.menu-top:focus+.wp-submenu, .js #adminmenu .opensub .wp-submenu, .js #adminmenu .sub-open, .no-js li.wp-has-submenu:hover .wp-submenu {
     padding: 8px 6px 6px 2px;

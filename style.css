@@ -1,8 +1,16 @@
+body{
+  font-family:'Krona One', sans-serif;
+}
+#adminmenu a.menu-top:focus+.wp-submenu, .js #adminmenu .opensub .wp-submenu, .js #adminmenu .sub-open, .no-js li.wp-has-submenu:hover .wp-submenu {
+    padding: 8px 6px 6px 2px;
+}
+
 #adminmenu .wp-submenu a{
   font-size:17px;
 }
 
 #wpadminbar * {
+  font-family:'Krona One', sans-serif;
   font-size:17px;
   line-height:1.9;
 }
@@ -15,7 +23,7 @@ tr.user-admin-color-wrap,
     display: none;
 }
 li#wp-admin-bar-site-name .ab-item {
-    color: #fca313;
+    color: #007bff;
     text-transform: uppercase;
     text-decoration: overline;
 }
@@ -28,14 +36,15 @@ div#wpfooter {
   }
 
 #adminmenu, #adminmenu .wp-submenu, #adminmenuback, #adminmenuwrap,#wpadminbar{
-  background-color:#14213d;
+  background: linear-gradient(to right, #343a40, #007bff);
 }
 #adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head, #adminmenu .wp-menu-arrow,
 #adminmenu .wp-menu-arrow div, #adminmenu li.current a.menu-top,
 #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu,
 #adminmenu li.menu-top:hover,#adminmenu li.menu-top:focus,
 #adminmenu li.menu-top:hover, #adminmenu li.opensub>a.menu-top, #adminmenu li>a.menu-top:focus{
-    background: #fca311;
+
+  background: linear-gradient(to right, #343a40, #007bff);
 }
 .wp-menu-name:hover,
 #adminmenu li.menu-top:hover, #adminmenu li.opensub>a.menu-top, #adminmenu li>a.menu-top:focus,
@@ -45,26 +54,26 @@ div#wpfooter {
 }
 
 #adminmenu .wp-submenu a:focus, #adminmenu .wp-submenu a:hover, #adminmenu a:hover, #adminmenu li.menu-top>a:focus{
-  color : #fca311 !important;
+  color : #007bff !important;
 }
 #adminmenu div.wp-menu-image:before {
-    color: #72aee6;
+    color: #007bff;
 }
 
 #wpcontent, #wpfooter {
     margin-left: 300px;
 }
 #adminmenu, #adminmenu .wp-submenu, #adminmenuback, #adminmenuwrap{
-  width:237px;
+  width:255px;
 }
 
 #adminmenu .wp-submenu-head, #adminmenu a.menu-top, #adminmenu .wp-not-current-submenu li>a, .folded #adminmenu .wp-has-current-submenu li>a {
     font-size: 17px;
     font-weight: 500;
-    line-height: 3;
-    font-family: sans-serif;
-    background-color: #273a63;
-    border: 1px solid black;
+    line-height: 1.48;
+    font-family:'Krona One', sans-serif;
+    background: linear-gradient(to right, #343a40, #007bff);
+
 }
 
 

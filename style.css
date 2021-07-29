@@ -1,6 +1,24 @@
 body{
   font-family:'Krona One', sans-serif;
+  background: linear-gradient(to right, #0476ef, #294766);
 }
+table.wp-list-table {
+    background: linear-gradient(to top, #a1b0be, #a1afbe);
+    border-radius: 12px;
+}
+.form-wrap p, p.description,h2, h3,h1.wp-heading-inline{
+  color:white;
+}
+.form-table th, .form-wrap label {
+    color: #a1afbe;
+  }
+.postbox.closed, .postbox,.media-frame.mode-grid .media-toolbar{
+  border-radius:12px;
+}
+h2.hndle.ui-sortable-handle{
+  color:Black;
+}
+
 #adminmenu a.menu-top:focus+.wp-submenu, .js #adminmenu .opensub .wp-submenu, .js #adminmenu .sub-open, .no-js li.wp-has-submenu:hover .wp-submenu {
     padding: 8px 6px 6px 2px;
 }

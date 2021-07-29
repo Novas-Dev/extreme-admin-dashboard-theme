@@ -2,12 +2,31 @@ body{
   font-family:'Krona One', sans-serif;
   background: linear-gradient(to right, #0476ef, #294766);
 }
-table.wp-list-table {
+table.wp-list-table,.plugins tr,tr.active {
     background: linear-gradient(to top, #a1b0be, #a1afbe);
     border-radius: 12px;
 }
-.form-wrap p, p.description,h2, h3,h1.wp-heading-inline{
+.plugins, .plugins td, .plugins th{
+  border-radius:12px;
+}
+.form-wrap p, p.description,h2, h3,h1.wp-heading-inline,
+.subsubsub a .count, .subsubsub a.current .count,
+.tablenav .one-page .displaying-num,
+ul.subsubsub a{
   color:white;
+}
+
+#adminmenu li.menu-top {
+    border: none;
+    min-height: 39px;
+    position: relative;
+    border: 0px;
+    border-bottom: 3px solid;
+    border-image: linear-gradient(to right, rgb(255 255 255), rgb(1 120 248));
+    border-image-slice: 1;
+    color: white;
+    margin: auto;
+    text-decoration: none;
 }
 .form-table th, .form-wrap label {
     color: #a1afbe;

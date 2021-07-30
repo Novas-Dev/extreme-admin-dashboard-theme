@@ -21,6 +21,9 @@ function my_custom_fonts() {
 
 function extreme_login_css() {
     echo "<link rel='stylesheet' href='wp-content/plugins/admin-dashboard/assets/css/login-style.css'>";
+    echo  '<link rel="preconnect" href="https://fonts.googleapis.com">';
+    echo '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>';
+    echo  '<link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">';
 }
 add_action('login_head', 'extreme_login_css');
 

@@ -1,4 +1,23 @@
 .login h1 a {
-  
+
     filter: brightness(0) invert(1);
+}
+
+body{
+  font-family:'Krona One', sans-serif;
+  background: linear-gradient(to right, #0476ef, #294766);
+}
+.login form {
+    border: 1px solid #c3c4c7;
+    box-shadow: 0 -1px 12px rgb(255 255 255);
+    border-radius: 12px;
+    opacity: 84%;
+}
+
+.login #backtoblog a, .login #nav a{
+  color:white;
+}
+
+.login #backtoblog a:hover, .login #nav a:hover, .login h1 a:hover {
+    color: #c3c4c7;
 }

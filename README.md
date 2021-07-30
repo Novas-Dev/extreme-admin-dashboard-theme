@@ -1,5 +1,5 @@
 # Extreme Admin Dashboard Theme Plugin :boom:
-
+# Wordpress
 An awesome light weight plugin that allows you to set a custom Wordpress login & admin page.
 Blue colors like Official Wordpress Palette.
 If you need to change style to your Admin Dashboard and Login page just install and activate.

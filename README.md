@@ -10,8 +10,8 @@ If you need to change style to your Admin Dashboard and Login page just install 
 - [x] No settings *required
 
 # Installation
->Download Package
->Install to Wordpress plugins -> Add New Plugin
->Activate
->You are ready no other steps need
+>1. Download Package
+>2. Install to Wordpress plugins -> Add New Plugin
+>3. Activate
+>4. You are ready no other steps need
 

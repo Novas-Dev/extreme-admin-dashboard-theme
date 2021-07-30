@@ -15,3 +15,9 @@ If you need to change style to your Admin Dashboard and Login page just install 
 >3. Activate
 >4. You are ready no other steps need
 
+# Admin Dashboard
+
+![alt text](https://raw.githubusercontent.com/Novas-Dev/Assets/main/landing.jpg)
+
+# Login Page
+![alt text](https://raw.githubusercontent.com/Novas-Dev/Assets/main/login-page.jpg)

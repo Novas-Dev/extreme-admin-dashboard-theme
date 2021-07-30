@@ -11,7 +11,7 @@ table.wp-list-table,.plugins tr,tr.active {
 }
 .form-wrap p, p.description,h2, h3,h1.wp-heading-inline,
 .subsubsub a .count, .subsubsub a.current .count,
-.tablenav .one-page .displaying-num,
+.tablenav .one-page .displaying-num, h1,
 ul.subsubsub a{
   color:white;
 }

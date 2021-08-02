@@ -8,26 +8,14 @@ Version: 1.0
 */
 
 
-
-add_action('admin_head', 'my_custom_fonts');
-
-function my_custom_fonts() {
-  echo "<link rel='stylesheet' href='../wp-content/plugins/extreme-admin-dashboard-theme/assets/css/dash-style.css'>";
-  echo  '<link rel="preconnect" href="https://fonts.googleapis.com">';
-  echo '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>';
-  echo  '<link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">';
+function ecpt_dashboard_assets() {
+    wp_enqueue_style('ecpt-dash-css-file', plugin_dir_url(__FILE__) . 'assets/css/dash-style.css', '', time());
 }
+add_action('admin_enqueue_scripts', 'ecpt_dashboard_assets');
 
-function extreme_login_css() {
-    echo "<link rel='stylesheet' href='wp-content/plugins/extreme-admin-dashboard-theme/assets/css/login-style.css'>";
-    echo  '<link rel="preconnect" href="https://fonts.googleapis.com">';
-    echo '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>';
-    echo  '<link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">';
+function ecpt_login_assets() {
+    wp_enqueue_style('ecpt-login-css-file', plugin_dir_url(__FILE__) . 'assets/css/login-style.css', '', time());
 }
-add_action('login_head', 'extreme_login_css');
-
-
-
-
+add_action('login_enqueue_scripts', 'ecpt_login_assets');
 
 ?>
